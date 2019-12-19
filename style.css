@@ -1,0 +1,51 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo h1 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+#searchform {
+    text-align: center;
+    position: relative;
+    top: 125px;
+}
+
+#searchform input{
+
+    width: 387px;
+    height: 34px;
+    font-size: 14px;
+    padding-left: 10px;
+    border-radius: 1em;
+
+}
+
+#searchform input:hover {
+    box-shadow: 0 0 3px 0 grey;
+}
+
+#searchsubmit {
+    text-align: center;
+    position: relative;
+    top: 140px;
+}
+
+#searchsubmit input[type="submit"]:hover {
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
+
+#searchsubmit input[type="submit"]{
+    border: 1px solid #f2f2f2
+}
