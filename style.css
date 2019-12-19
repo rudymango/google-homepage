@@ -49,3 +49,30 @@ body {
 #searchsubmit input[type="submit"]{
     border: 1px solid #f2f2f2
 }
+
+#horizontalhead{
+    margin: 15px 15px 15px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    color: #000;
+    opacity: 75%;
+}
+
+#horizontalhead a:link{
+    color: #000;
+    text-decoration: none;
+}
+
+#horizontalhead a:visited{
+    color: #000;
+    text-decoration: none;
+}
+
+#horizontal a:hover {
+    text-decoration: underline;
+}
+
+#horizontalhead li {
+    display: inline;
+    padding-left: 10px;
+}
