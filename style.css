@@ -46,8 +46,16 @@ body {
     color: #222;
 }
 
+#searchform input:focus{
+    box-shadow: 0 0 3px 0 grey;
+}
+
 #searchsubmit input[type="submit"]{
     border: 1px solid #f2f2f2
+}
+
+input:focus {
+    outline: none;
 }
 
 #horizontalhead{
@@ -65,14 +73,23 @@ body {
 
 #horizontalhead a:visited{
     color: #000;
-    text-decoration: none;
 }
 
-#horizontal a:hover {
+#horizontalhead a:hover{
     text-decoration: underline;
+    color: #000;
 }
 
 #horizontalhead li {
     display: inline;
     padding-left: 10px;
+}
+
+#lefthorizontalhead {
+    float: right;
+}
+
+#lefthorizontalhead li{
+    padding-right: 10px;
+    padding-left: 0px;
 }
