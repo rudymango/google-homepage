@@ -1,5 +1,5 @@
 body {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #logo {
@@ -92,4 +92,41 @@ input:focus {
 #lefthorizontalhead li{
     padding-right: 10px;
     padding-left: 0px;
+}
+
+#horizontalfoot {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f5f5f5;
+    line-height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border-top: 1px solid #e6e6e6;
+}
+
+#horizontalfoot a:link{
+    text-decoration: none;
+    color: #000;
+}
+
+#horizontalfoot a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+#horizontalfoot a:hover{
+    text-decoration: underline;
+}
+
+#horizontalfoot li {
+    display: inline;
+    padding-left: 27px;
+    opacity: 67%;
+}
+
+#horizontalfoot-left {
+    float: right;
+    padding-left: 0px;
+    padding-right: 27px;
 }
